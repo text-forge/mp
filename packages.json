@@ -1,0 +1,36 @@
+[
+	{
+		"id": "themes/dark",
+		"name": "Dark",
+		"version": "1.0.0",
+		"category": "themes",
+		"description": "Text Forge default dark theme",
+		"author": "text-forge",
+		"tags": ["dark-theme", "official"],
+		"editor_version_min": "0.1.0",
+		"created": "2025-9-16",
+		"updated": "2025-9-16"
+	}, {
+		"id": "modes/css",
+		"name": "CSS",
+		"version": "1.0.0",
+		"category": "modes",
+		"description": "Official CSS editing",
+		"author": "text-forge",
+		"tags": ["web-dev", "official", "css"],
+		"editor_version_min": "0.1.0",
+		"created": "2025-8-19",
+		"updated": "2025-8-28"
+	}, {
+		"id": "modes/web-kit",
+		"name": "Web Kit",
+		"version": "1.0.0",
+		"category": "modes",
+		"description": "Mode kit for web devlopers, HTML + CSS + JavaScript + Markdown + JSON",
+		"author": "text-forge",
+		"tags": ["web-dev", "official", "mode-kit", "html", "css", "java-script", "markdown", "json"],
+		"editor_version_min": "0.1.0",
+		"created": "2025-8-19",
+		"updated": "2025-8-28"
+	}
+]

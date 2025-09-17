@@ -1,0 +1,6 @@
+{
+	"description": "Default dark theme.",
+	"file": "dark.tres",
+	"theme_loader_id": "1",
+	"images": ["1.png"]
+}
