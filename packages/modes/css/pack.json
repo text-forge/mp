@@ -1,5 +1,5 @@
 {
 	"description": "Simple mode for css and scss files, with auto indention and highlighter. Also contains a simple code completion.",
 	"file": "css.tfmode",
-	"editor_api_id": "2"
+	"compatible_versions": ">=0.1.0 || ?0.2.0"
 }

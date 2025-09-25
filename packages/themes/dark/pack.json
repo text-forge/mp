@@ -1,6 +1,6 @@
 {
 	"description": "Default dark theme.",
 	"file": "dark.tres",
-	"theme_loader_id": "1",
+	"compatible_versions": ">=0.1.0 || ?0.2.0",
 	"images": ["1.png"]
 }

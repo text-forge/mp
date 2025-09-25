@@ -1,5 +1,5 @@
 {
 	"description": "A lightweight and functional mode kit for web developers with HTML, CSS, JavaScript, Markdown, and JSON support.",
 	"file": "web-modekit.tfmode",
-	"editor_api_id": "2"
+	"compatible_versions": ">=0.1.0 || ?0.2.0"
 }
