@@ -1,0 +1,5 @@
+{
+	"description": "A lightweight and functional mode for INI-style (section & key) configuration files.",
+	"file": "ini.tfmode",
+	"compatible_versions": ">=0.1.0 || ?0.2.0"
+}

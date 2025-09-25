@@ -1,0 +1,5 @@
+{
+	"description": "A lightweight and functional mode for GDScript .gd files.",
+	"file": "gdscript.tfmode",
+	"compatible_versions": ">=0.1.0 || ?0.2.0"
+}

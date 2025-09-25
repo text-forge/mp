@@ -1,0 +1,5 @@
+{
+	"description": "Advanced mode for working with htm and html files, with smart auto formatting and highlighter. Also contains a simple code completion and smart outline.",
+	"file": "html.tfmode",
+	"compatible_versions": ">=0.1.0 || ?0.2.0"
+}

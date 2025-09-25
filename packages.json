@@ -32,5 +32,82 @@
 		"editor_version_min": "0.1.0",
 		"created": "2025-8-19",
 		"updated": "2025-8-28"
+	}, {
+		"id": "modes/gdscript",
+		"name": "GDScript",
+		"version": "1.0.0",
+		"category": "modes",
+		"description": "Official GDScript editing",
+		"author": "text-forge",
+		"tags": ["gdscript", "official"],
+		"editor_version_min": "0.1.0",
+		"created": "2025-8-19",
+		"updated": "2025-9-10"
+	}, {
+		"id": "modes/html",
+		"name": "HTML",
+		"version": "1.0.0",
+		"category": "modes",
+		"description": "Official HTML & HTM editing",
+		"author": "text-forge",
+		"tags": ["web-dev", "official", "html"],
+		"editor_version_min": "0.1.0",
+		"created": "2025-8-19",
+		"updated": "2025-8-28"
+	}, {
+		"id": "modes/ini",
+		"name": "INI",
+		"version": "1.1.0",
+		"category": "modes",
+		"description": "Official INI-style configuration editing",
+		"author": "text-forge",
+		"tags": ["ini", "official", "config"],
+		"editor_version_min": "0.1.0",
+		"created": "2025-8-19",
+		"updated": "2025-8-19"
+	}, {
+		"id": "modes/javascript",
+		"name": "JavaScript",
+		"version": "1.0.0",
+		"category": "modes",
+		"description": "Official JavaScript editing",
+		"author": "text-forge",
+		"tags": ["web-dev", "official", "java-script"],
+		"editor_version_min": "0.1.0",
+		"created": "2025-8-19",
+		"updated": "2025-8-28"
+	}, {
+		"id": "modes/json",
+		"name": "JSON",
+		"version": "1.0.0",
+		"category": "modes",
+		"description": "Official JSON editing",
+		"author": "text-forge",
+		"tags": ["web-dev", "official", "json"],
+		"editor_version_min": "0.1.0",
+		"created": "2025-8-19",
+		"updated": "2025-8-28"
+	}, {
+		"id": "modes/markdown",
+		"name": "Markdown",
+		"version": "1.0.0",
+		"category": "modes",
+		"description": "Official Markdown editing",
+		"author": "text-forge",
+		"tags": ["web-dev", "official", "markdown"],
+		"editor_version_min": "0.1.0",
+		"created": "2025-8-19",
+		"updated": "2025-8-28"
+	}, {
+		"id": "modes/python",
+		"name": "Python",
+		"version": "1.0.0",
+		"category": "modes",
+		"description": "Python support for Text Forge",
+		"author": "mkh-user",
+		"tags": ["python"],
+		"editor_version_min": "0.1.0",
+		"created": "2025-8-19",
+		"updated": "2025-8-19"
 	}
 ]

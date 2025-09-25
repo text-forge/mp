@@ -1,0 +1,5 @@
+{
+	"description": "Advanced mode for working with json fildes, with smart auto formatting and simple highlighter.",
+	"file": "json.tfmode",
+	"compatible_versions": ">=0.1.0 || ?0.2.0"
+}
