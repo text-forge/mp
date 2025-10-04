@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=55 format=3 uid="uid://biemqm07w26kl"]
+[gd_resource type="Theme" load_steps=60 format=3 uid="uid://biemqm07w26kl"]
 
 [ext_resource type="Texture2D" uid="uid://bwarwcjjx7it3" path="res://assets/active.png" id="1_26g0h"]
 [ext_resource type="Texture2D" uid="uid://dat7uwrm3mo45" path="res://assets/active_disabled.png" id="2_xqe5d"]
@@ -7,6 +7,10 @@
 [ext_resource type="FontFile" uid="uid://d03vkdeo2egtn" path="res://assets/JetBrainsMono-Regular.ttf" id="5_xqe5d"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tusby"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
 bg_color = Color(0.0625005, 0.0961309, 0.129758, 1)
 corner_radius_bottom_right = 5
 corner_radius_bottom_left = 5
@@ -84,6 +88,10 @@ corner_radius_bottom_left = 5
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fxery"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xqe5d"]
+content_margin_top = 7.0
+bg_color = Color(0, 0, 0, 0)
+
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qjhx0"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_u427p"]
@@ -146,6 +154,33 @@ bg_color = Color(0.11834, 0.167543, 0.216756, 1)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_a818m"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0guws"]
+content_margin_left = 5.0
+content_margin_top = 2.0
+content_margin_right = 5.0
+content_margin_bottom = 2.0
+bg_color = Color(0, 0, 0, 0.215686)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a818m"]
+content_margin_left = 7.0
+content_margin_top = 7.0
+content_margin_right = 7.0
+content_margin_bottom = 7.0
+bg_color = Color(0.11834, 0.167543, 0.216756, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.0823529, 0.121569, 0.160784, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0ahyh"]
 content_margin_left = 5.0
 content_margin_top = 5.0
@@ -175,6 +210,18 @@ border_color = Color(0.0625005, 0.0961309, 0.129758, 1)
 [sub_resource type="StyleBoxLine" id="StyleBoxLine_0wfyh"]
 color = Color(0.0625005, 0.0961309, 0.129758, 1)
 thickness = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_atsne"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+bg_color = Color(0.0625005, 0.0961309, 0.129758, 1)
+border_color = Color(0.0625005, 0.0961309, 0.129758, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xqe5d"]
 content_margin_left = 5.0
@@ -245,6 +292,10 @@ corner_radius_bottom_left = 5
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ptpdr"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7ki5i"]
+content_margin_left = 7.0
+bg_color = Color(0, 0, 0, 0)
+
 [resource]
 AboutTabContainer/base_type = &"TabContainer"
 AboutTabContainer/styles/panel = SubResource("StyleBoxFlat_tusby")
@@ -292,6 +343,7 @@ FileTree/base_type = &"Tree"
 FileTree/styles/panel = SubResource("StyleBoxEmpty_70dqv")
 FlatTabContainer/base_type = &"TabContainer"
 FlatTabContainer/styles/panel = SubResource("StyleBoxEmpty_fxery")
+HScrollBar/styles/scroll = SubResource("StyleBoxFlat_xqe5d")
 ItemList/styles/focus = SubResource("StyleBoxEmpty_qjhx0")
 ItemList/styles/hovered = SubResource("StyleBoxEmpty_u427p")
 ItemList/styles/hovered_selected = SubResource("StyleBoxEmpty_7rtxy")
@@ -326,6 +378,19 @@ NoFocusButton/base_type = &"Button"
 NoFocusButton/styles/focus = SubResource("StyleBoxEmpty_28nt2")
 OutlineTree/base_type = &"Tree"
 OutlineTree/styles/panel = SubResource("StyleBoxEmpty_a818m")
+PackageBadgeLabel/base_type = &"Label"
+PackageBadgeLabel/font_sizes/font_size = 12
+PackageBadgeLabel/styles/normal = SubResource("StyleBoxFlat_0guws")
+PackageDatesLabel/base_type = &"Label"
+PackageDatesLabel/colors/font_color = Color(0.699219, 0.699219, 0.699219, 1)
+PackageDatesLabel/font_sizes/font_size = 10
+PackageDescriptionLabel/base_type = &"Label"
+PackageDescriptionLabel/colors/font_color = Color(1, 1, 1, 0.392157)
+PackageDescriptionLabel/font_sizes/font_size = 14
+PackagePanel/base_type = &"PanelContainer"
+PackagePanel/styles/panel = SubResource("StyleBoxFlat_a818m")
+PackageVersionLabel/base_type = &"Label"
+PackageVersionLabel/font_sizes/font_size = 12
 PanelContainer/styles/panel = SubResource("StyleBoxFlat_0ahyh")
 PopupMenu/colors/font_accelerator_color = Color(0.701961, 0.701961, 0.701961, 0.392157)
 PopupMenu/constants/item_end_padding = 10
@@ -344,6 +409,8 @@ PopupMenu/styles/labeled_separator_right = SubResource("StyleBoxFlat_0wfyh")
 PopupMenu/styles/panel = SubResource("StyleBoxFlat_0wfyh")
 PopupMenu/styles/separator = SubResource("StyleBoxLine_0wfyh")
 PopupPanel/styles/panel = SubResource("StyleBoxFlat_0wfyh")
+PreferencesSectionTab/base_type = &"TabContainer"
+PreferencesSectionTab/styles/panel = SubResource("StyleBoxFlat_atsne")
 ProblemDetails/base_type = &"Label"
 ProblemDetails/colors/font_color = Color(0.47451, 0.47451, 0.47451, 1)
 ProblemPanel/base_type = &"PanelContainer"
@@ -362,6 +429,27 @@ SettingsOptionSpinBox/base_type = &"SpinBox"
 SettingsOptionSpinBox/constants/buttons_width = 30
 SettingsOptionSpinBox/constants/field_and_buttons_separation = 0
 SplitContainer/constants/separation = 0
+SyntaxColors/colors/builtin = Color(0.83490276, 0.68370885, 0.9456201, 1)
+SyntaxColors/colors/comment = Color(1, 1, 1, 0.39215687)
+SyntaxColors/colors/custom1 = Color(0.4140011, 0.77446616, 0.262001, 1)
+SyntaxColors/colors/custom2 = Color(0.84633034, 0.6107746, 0.76842904, 1)
+SyntaxColors/colors/custom3 = Color(1, 0.61207426, 0.32789925, 1)
+SyntaxColors/colors/custom4 = Color(0.8646203, 0.9793777, 0.29515055, 1)
+SyntaxColors/colors/custom5 = Color(0.46334094, 0.81050724, 0.99092, 1)
+SyntaxColors/colors/default = Color(1, 1, 1, 1)
+SyntaxColors/colors/doc_comment = Color(1, 1, 1, 0.60784316)
+SyntaxColors/colors/function = Color(0.34117648, 0.7019608, 1, 1)
+SyntaxColors/colors/function_def = Color(0.37460276, 0.835697, 0.9999849, 1)
+SyntaxColors/colors/keyword1 = Color(1, 0.4392157, 0.52156866, 1)
+SyntaxColors/colors/keyword2 = Color(1, 0.54901963, 0.8, 1)
+SyntaxColors/colors/keyword3 = Color(1, 0.7019608, 0.4509804, 1)
+SyntaxColors/colors/member = Color(0.7372549, 0.8784314, 1, 1)
+SyntaxColors/colors/number = Color(0.52969646, 0.99335927, 0.85976726, 1)
+SyntaxColors/colors/string = Color(1, 0.92941177, 0.6313726, 1)
+SyntaxColors/colors/symbol = Color(0.67058825, 0.7882353, 1, 1)
+SyntaxColors/colors/type1 = Color(4.9093364e-06, 0.92708826, 0.52402854, 1)
+SyntaxColors/colors/type2 = Color(0.39344972, 0.88213146, 0.72516125, 1)
+SyntaxColors/colors/type3 = Color(0.5388933, 0.8574115, 0.71355134, 1)
 TabContainer/constants/side_margin = 0
 TabContainer/styles/panel = SubResource("StyleBoxFlat_hofdy")
 TabContainer/styles/tab_focus = SubResource("StyleBoxEmpty_1ojjt")
@@ -377,6 +465,7 @@ Tree/styles/hovered = SubResource("StyleBoxEmpty_rga1e")
 Tree/styles/panel = SubResource("StyleBoxFlat_rga1e")
 Tree/styles/selected = SubResource("StyleBoxEmpty_cuqy7")
 Tree/styles/selected_focus = SubResource("StyleBoxEmpty_ptpdr")
+VScrollBar/styles/scroll = SubResource("StyleBoxFlat_7ki5i")
 WarningCount/base_type = &"Label"
 WarningCount/colors/font_color = Color(0.909804, 0.737255, 0.0117647, 1)
 WarningCount/font_sizes/font_size = 14

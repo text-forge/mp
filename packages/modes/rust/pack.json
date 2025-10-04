@@ -1,0 +1,5 @@
+{
+	"description": "A lightweight and functional mode for Text Forge code editor.",
+	"file": "rust.tfmode",
+	"compatible_versions": ">=0.2.0 || ?0.3.0"
+}

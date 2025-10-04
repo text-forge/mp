@@ -1,113 +1,124 @@
 [
 	{
+		"id": "modes/rust",
+		"name": "Rust",
+		"version": "1.0.0",
+		"category": "modes",
+		"description": "Official Rust editing",
+		"author": "text-forge",
+		"tags": ["rust", "official"],
+		"editor_version_min": "0.1.0",
+		"created": "2025-10-4",
+		"updated": "2025-10-4"
+	}, {
 		"id": "themes/dark",
 		"name": "Dark",
-		"version": "1.0.0",
+		"version": "1.1.0",
 		"category": "themes",
 		"description": "Text Forge default dark theme",
 		"author": "text-forge",
 		"tags": ["dark-theme", "official"],
 		"editor_version_min": "0.1.0",
 		"created": "2025-9-16",
-		"updated": "2025-9-16"
+		"updated": "2025-10-4"
 	}, {
 		"id": "modes/gdscript",
 		"name": "GDScript",
-		"version": "1.0.0",
+		"version": "1.2.0",
 		"category": "modes",
 		"description": "Official GDScript editing",
 		"author": "text-forge",
 		"tags": ["gdscript", "official"],
 		"editor_version_min": "0.1.0",
 		"created": "2025-8-19",
-		"updated": "2025-9-10"
+		"updated": "2025-10-4"
 	}, {
 		"id": "modes/css",
 		"name": "CSS",
-		"version": "1.0.0",
+		"version": "1.1.0",
 		"category": "modes",
 		"description": "Official CSS editing",
 		"author": "text-forge",
 		"tags": ["web-dev", "official", "css"],
 		"editor_version_min": "0.1.0",
 		"created": "2025-8-19",
-		"updated": "2025-8-28"
+		"updated": "2025-10-4"
 	}, {
 		"id": "modes/web-kit",
 		"name": "Web Kit",
-		"version": "1.0.0",
+		"version": "20251004",
 		"category": "modes",
 		"description": "Mode kit for web devlopers, HTML + CSS + JavaScript + Markdown + JSON",
 		"author": "text-forge",
 		"tags": ["web-dev", "official", "mode-kit", "html", "css", "java-script", "markdown", "json"],
 		"editor_version_min": "0.1.0",
 		"created": "2025-8-19",
-		"updated": "2025-8-28"
+		"updated": "2025-10-4"
 	}, {
 		"id": "modes/html",
 		"name": "HTML",
-		"version": "1.0.0",
+		"version": "1.1.0",
 		"category": "modes",
 		"description": "Official HTML & HTM editing",
 		"author": "text-forge",
 		"tags": ["web-dev", "official", "html"],
 		"editor_version_min": "0.1.0",
 		"created": "2025-8-19",
-		"updated": "2025-8-28"
+		"updated": "2025-10-4"
 	}, {
 		"id": "modes/javascript",
 		"name": "JavaScript",
-		"version": "1.0.0",
+		"version": "1.1.0",
 		"category": "modes",
 		"description": "Official JavaScript editing",
 		"author": "text-forge",
 		"tags": ["web-dev", "official", "java-script"],
 		"editor_version_min": "0.1.0",
 		"created": "2025-8-19",
-		"updated": "2025-8-28"
+		"updated": "2025-10-4"
 	}, {
 		"id": "modes/json",
 		"name": "JSON",
-		"version": "1.0.0",
+		"version": "1.1.0",
 		"category": "modes",
 		"description": "Official JSON editing",
 		"author": "text-forge",
 		"tags": ["web-dev", "official", "json"],
 		"editor_version_min": "0.1.0",
 		"created": "2025-8-19",
-		"updated": "2025-8-28"
+		"updated": "2025-10-4"
 	}, {
 		"id": "modes/markdown",
 		"name": "Markdown",
-		"version": "1.0.0",
+		"version": "1.1.0",
 		"category": "modes",
 		"description": "Official Markdown editing",
 		"author": "text-forge",
 		"tags": ["web-dev", "official", "markdown"],
 		"editor_version_min": "0.1.0",
 		"created": "2025-8-19",
-		"updated": "2025-8-28"
+		"updated": "2025-10-4"
 	}, {
 		"id": "modes/ini",
 		"name": "INI",
-		"version": "1.1.0",
+		"version": "1.2.0",
 		"category": "modes",
 		"description": "Official INI-style configuration editing",
 		"author": "text-forge",
 		"tags": ["ini", "official", "config"],
 		"editor_version_min": "0.1.0",
 		"created": "2025-8-19",
-		"updated": "2025-8-19"
+		"updated": "2025-10-4"
 	}, {
 		"id": "modes/python",
 		"name": "Python",
-		"version": "1.0.0",
+		"version": "1.1.0",
 		"category": "modes",
 		"description": "Python support for Text Forge",
-		"author": "mkh-user",
-		"tags": ["python"],
+		"author": "text-forge",
+		"tags": ["python", "official"],
 		"editor_version_min": "0.1.0",
 		"created": "2025-8-19",
-		"updated": "2025-8-19"
+		"updated": "2025-10-4"
 	}
 ]
