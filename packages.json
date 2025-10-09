@@ -1,5 +1,16 @@
 [
 	{
+		"id": "modes/csv",
+		"name": "CSV",
+		"version": "1.0.0",
+		"category": "modes",
+		"description": "CSV support for Text Forge",
+		"author": "text-forge",
+		"tags": ["csv", "official"],
+		"editor_version_min": "0.2.0",
+		"created": "2025-10-9",
+		"updated": "2025-10-9"
+	}, {
 		"id": "modes/svg",
 		"name": "SVG",
 		"version": "1.0.0",
