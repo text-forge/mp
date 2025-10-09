@@ -1,5 +1,16 @@
 [
 	{
+		"id": "modes/svg",
+		"name": "SVG",
+		"version": "1.0.0",
+		"category": "modes",
+		"description": "SVG support for Text Forge",
+		"author": "text-forge",
+		"tags": ["svg", "official"],
+		"editor_version_min": "0.2.0",
+		"created": "2025-10-9",
+		"updated": "2025-10-9"
+	}, {
 		"id": "modes/rust",
 		"name": "Rust",
 		"version": "1.0.0",

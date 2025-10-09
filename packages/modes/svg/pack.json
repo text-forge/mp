@@ -1,0 +1,5 @@
+{
+	"description": "A lightweight and functional mode for Text Forge code editor for SVG support with preview, auto formatting, outline and more.",
+	"file": "svg.tfmode",
+	"compatible_versions": ">=0.2.0 || ?0.3.0"
+}
