@@ -1,5 +1,49 @@
 [
 	{
+		"id": "modes/full-kit",
+		"name": "Full Mode Kit",
+		"version": "1.1.0",
+		"category": "modes",
+		"description": "Mode kit of all standard modes for Text Forge code editor",
+		"author": "text-forge",
+		"tags": ["mode-kit", "official"],
+		"editor_version_min": "0.2.0",
+		"created": "2025-12-11",
+		"updated": "2025-12-11"
+	}, {
+		"id": "modes/css",
+		"name": "CSS",
+		"version": "1.1.1",
+		"category": "modes",
+		"description": "Official CSS editing",
+		"author": "text-forge",
+		"tags": ["web-dev", "official", "css"],
+		"editor_version_min": "0.2.0",
+		"created": "2025-8-19",
+		"updated": "2025-12-11"
+	}, {
+		"id": "modes/web-kit",
+		"name": "Web Kit",
+		"version": "20251211",
+		"category": "modes",
+		"description": "Mode kit for web devlopers, HTML + CSS + JavaScript + Markdown + JSON",
+		"author": "text-forge",
+		"tags": ["web-dev", "official", "mode-kit", "html", "css", "java-script", "markdown", "json"],
+		"editor_version_min": "0.2.0",
+		"created": "2025-8-19",
+		"updated": "2025-12-11"
+	}, {
+		"id": "modes/markdown",
+		"name": "Markdown",
+		"version": "1.2.0",
+		"category": "modes",
+		"description": "Official Markdown editing",
+		"author": "text-forge",
+		"tags": ["web-dev", "official", "markdown"],
+		"editor_version_min": "0.2.0",
+		"created": "2025-8-19",
+		"updated": "2025-12-11"
+	}, {
 		"id": "modes/csv",
 		"name": "CSV",
 		"version": "1.0.0",
@@ -55,28 +99,6 @@
 		"created": "2025-8-19",
 		"updated": "2025-10-4"
 	}, {
-		"id": "modes/css",
-		"name": "CSS",
-		"version": "1.1.0",
-		"category": "modes",
-		"description": "Official CSS editing",
-		"author": "text-forge",
-		"tags": ["web-dev", "official", "css"],
-		"editor_version_min": "0.1.0",
-		"created": "2025-8-19",
-		"updated": "2025-10-4"
-	}, {
-		"id": "modes/web-kit",
-		"name": "Web Kit",
-		"version": "20251004",
-		"category": "modes",
-		"description": "Mode kit for web devlopers, HTML + CSS + JavaScript + Markdown + JSON",
-		"author": "text-forge",
-		"tags": ["web-dev", "official", "mode-kit", "html", "css", "java-script", "markdown", "json"],
-		"editor_version_min": "0.1.0",
-		"created": "2025-8-19",
-		"updated": "2025-10-4"
-	}, {
 		"id": "modes/html",
 		"name": "HTML",
 		"version": "1.1.0",
@@ -106,17 +128,6 @@
 		"description": "Official JSON editing",
 		"author": "text-forge",
 		"tags": ["web-dev", "official", "json"],
-		"editor_version_min": "0.1.0",
-		"created": "2025-8-19",
-		"updated": "2025-10-4"
-	}, {
-		"id": "modes/markdown",
-		"name": "Markdown",
-		"version": "1.1.0",
-		"category": "modes",
-		"description": "Official Markdown editing",
-		"author": "text-forge",
-		"tags": ["web-dev", "official", "markdown"],
 		"editor_version_min": "0.1.0",
 		"created": "2025-8-19",
 		"updated": "2025-10-4"

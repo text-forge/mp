@@ -1,0 +1,5 @@
+{
+	"description": "All Text Forge official modes in one kit: CSS, CSV, GDScript, HTML, INI, JavaScript, JSON, Markdown, Plain Text, Python, Rust, SVG.",
+	"file": "full-kit.tfmode",
+	"compatible_versions": ">=0.2.0 || ?0.3.0"
+}

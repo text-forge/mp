@@ -1,5 +1,5 @@
 {
 	"description": "Simple mode for Markdown files, with regex-based highlighter and smart outline!",
 	"file": "markdown.tfmode",
-	"compatible_versions": ">=0.1.0 || ?0.2.0"
+	"compatible_versions": ">=0.2.0 || ?0.3.0"
 }
