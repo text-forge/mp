@@ -1,15 +1,26 @@
 [
 	{
+		"id": "modes/xml",
+		"name": "XML",
+		"version": "1.0.0",
+		"category": "modes",
+		"description": "Official XML support",
+		"author": "text-forge",
+		"tags": ["xml", "official"],
+		"editor_version_min": "0.2.0",
+		"created": "2025-12-12",
+		"updated": "2025-12-12"
+	}, {
 		"id": "modes/full-kit",
 		"name": "Full Mode Kit",
-		"version": "1.1.0",
+		"version": "1.2.0",
 		"category": "modes",
 		"description": "Mode kit of all standard modes for Text Forge code editor",
 		"author": "text-forge",
 		"tags": ["mode-kit", "official"],
 		"editor_version_min": "0.2.0",
 		"created": "2025-12-11",
-		"updated": "2025-12-11"
+		"updated": "2025-12-12"
 	}, {
 		"id": "modes/css",
 		"name": "CSS",

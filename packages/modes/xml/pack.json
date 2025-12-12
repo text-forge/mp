@@ -1,0 +1,5 @@
+{
+	"description": "A lightweight and functional mode for Text Forge code editor for XML support with linting, auto formatting, outline and more.",
+	"file": "xml.tfmode",
+	"compatible_versions": ">=0.2.0 || ?0.3.0"
+}
